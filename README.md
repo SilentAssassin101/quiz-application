@@ -1,35 +1,15 @@
 # quiz-application
 
-This template should help get you started developing with Vue 3 in Vite.
+## This is a simple quiz application I made to practice Vue 3
 
-## Recommended IDE Setup
+I just started learning Vue, so I decided to make a very simple quiz application
+I already had practice with making components and created and emitting events, so I decided to get more practice with the router
+I made this application an SPA
+I also wanted to challenge myself, so I made this project in just under 90 minutes
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+If I decide to update the project in the future, I should: 
+- Visit the + button in the navbar. This button is intended for creating new quizes
+- Incorporate some kind of database to store the quiz questions and answers
+- Store grades instead of instant-failing users on 1 question failed
+- Supply what the correct answer was on failed questions
+- Significantly improve UI/UX
